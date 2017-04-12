@@ -2,12 +2,16 @@
 body{
 	margin: 0 auto;
 	background-image: url("../images/paper_1.png");	
+	width:100%;
 }
 
 
 header{
 	width: 100%;
-	height: 80px;
+	height: 78px;
+	margin:0 auto 0 auto;
+	display:block;
+	/*padding-right:auto;*/
 	
 	background-color: white;
 	border-bottom-style:solid;
@@ -58,26 +62,24 @@ a{
 
 #headcontainer{
 	width:960px;
-	margin:0 auto;
+	margin:0 auto 0 auto;
+	height:76px;
 }
 	
 
 
 nav{
 	position:relative;
-	
 	top:-80px;
 	right:-700px;
-	overflow:hidden;
+	display:inline-block;
 	margin-left:0px;
-	white-space:nowrap;
-	
 }
 
 /*container 1 is the main container including about me and connect wiht me*/
 #container1{
 	/*border-radius:15px;*/
-	height:100vh;
+	height:100%;
 	width:960px;
 	
 	margin-top:0;
@@ -151,9 +153,6 @@ p{
 	border-color:#dddddd;
 	border-width:2px;
 	white-space:nowrap;
-	
-
-
 }
 
 #container4{
@@ -172,20 +171,16 @@ p{
 /*  footer */
 
 footer{
-	/*border-radius:15px;*/
-	/*background-color:#2f3131;*/
+
 	background-color:#2f3131;
 	padding:.1em;
 	position:fixed;
-	width:100%;
 	bottom:0;
 	border-top-style:solid;
 	border-top-width:6px;
-	/*border-top-color:#4aaaa5;*/
-	/*border-top-color:#426e86;*/
 	border-top-color:#f9ba32;
 	margin:0 auto;
-	
+	width:100%;
 }
 
 .textcenter{
