@@ -1,5 +1,5 @@
 body{
-	width:1000px;
+	width:auto;
 	margin: 0 auto;
 }
 
@@ -9,32 +9,79 @@ header{
 	width: auto;
 	height: 80px;
 }
+h1{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+    font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	font-size:45px;
+	color:white;
+	position:relative;
+	left: 40px;
+	vertical-align: middle;
+	line-height:79px;
+	margin:0 auto;
+}
+h2{
+	color: #4aaaa5;
+	/*font-size: 8px;*/
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 2px;
+	font-size:35px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+h3{
+	color: #4aaaa5;
+	/*font-size: 8px;*/
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 2px;
+	font-size:22px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+a{
+	
+	color:#777777;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 2px;
+	font-size:17px;
+	
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 
 #headcontainer{
-	width:340px;
+	width:470px;
 	height:80px;
-	background-color:orange;
+	background-color:#4aaaa5;
 	position: relative;
-	left: 50px;
+	left: 250px;
 	display:inline-block;
+	margin-bottom:10px;
+
+
 	/*border-radius:15px;*/
 
 		
 }
-#headername{
-	position:relative;
-	left: 40px;
+/*#headername{*/
+
+nav{
 	
-	vertical-align: middle;
-	line-height:90px;
-	margin:0 auto;
-}
-#navstruct{
-	display: inline-block;
 	float:right;
-	position: relative;
-	top:50%;
-	right:70px;
+	position: absolute;
+	top:30px;
+	left:940px;
+
+	margin-left:0px;
+	
 }
 
 /*container 1 is the main container including about me and connect wiht me*/
@@ -42,17 +89,17 @@ header{
 	/*border-radius:15px;*/
 	height:600px;
 	width:auto;
-	background-color:lightgrey;
+	background-image: url("../images/ep_naturalwhite.png");
 	display: block;
 	margin-top:0;
 	margin-bottom:0;
 	border-top-style:solid;
 	border-top-width:2px;
-	border-top-color:darkgrey;
+	border-top-color:#cccccc;
 
 	border-bottom-style:solid;
 	border-bottom-width:6px;
-	border-bottom-color:black;
+	border-bottom-color:#4aaaa5;
 }
 
 /* container 2 is the About me container*/
@@ -62,10 +109,14 @@ header{
 	display:inline-block;
 	height:540px;
 	width:650px;
-	background-color:orange;
+	background-color:#ffffff;
 	position:relative;
-	left:50px;
+	left:250px;
+	/*left:20%;*/
 	top: 30px;
+	border-style:solid;
+	border-color:#dddddd;
+	border-width:2px;
 }
 
 .left{
@@ -97,6 +148,8 @@ p{
 	line-height:25px;
 	margin-right:25px;
 	margin-left:40px;
+	color:#777777;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 /* Connect with me box */
@@ -106,11 +159,15 @@ p{
 	display:inline-block;
 	width:220px;
 	height:170px;
-	background-color:orange;
+	background-color:#ffffff;
 	position:relative;
-	right:-80px;
-	top:-210px;
-	margin:0 0 0 0;
+	left: 270px;
+	top:-214px;
+	border-style:solid;
+	border-color:#dddddd;
+	border-width:2px;
+	
+
 
 }
 
@@ -130,7 +187,7 @@ p{
 
 footer{
 	/*border-radius:15px;*/
-	background-color:darkgrey;
+	background-color:#2f3131;
 	margin: 0 auto;
 	padding:.1em;
 }
