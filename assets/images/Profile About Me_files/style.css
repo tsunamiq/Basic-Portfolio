@@ -18,14 +18,15 @@ header{
 }
 h1.struct{
 	font-family: 'Georgia', Times, Times New Roman, serif;
+    font-style: normal;
+	font-variant: normal;
 	font-weight: 500;
 	font-size:45px;
 	color:white;
 	line-height:79px;
 	margin-top:0;
 	background-color:#426e86;
-	padding-left:20px;
-	width:450px;
+	padding-left:45px;
 }
 h2{
 	/*color: #4aaaa5;*/
@@ -52,16 +53,26 @@ h3{
 }
 
 a{
+	
 	color:#777777;
+	font-style: normal;
+	font-variant: normal;
 	font-weight: 500;
 	line-height: 2px;
 	font-size:17px;
+	
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-#headcontainer{
+#headercontainer{
 	width:960px;
-	margin:0 auto;
+	height:80px;
+
+	/*position: relative;
+	left: 10%;*/
+	display:inline-block;
+
+
 }
 
 
@@ -70,10 +81,11 @@ a{
 
 
 nav{
-	position:relative;
 	
-	top:-80px;
-	right:-700px;
+	float:right;
+	position: absolute;
+	top:30px;
+	left:860px;
 	overflow:hidden;
 	margin-left:0px;
 	white-space:nowrap;
