@@ -1,6 +1,9 @@
+
 body{
 	width:auto;
-	margin: 0 auto;
+	height:auto;
+	margin:0 0 auto 0;
+	
 }
 
 
@@ -78,28 +81,27 @@ nav{
 	float:right;
 	position: absolute;
 	top:30px;
-	left:940px;
-
+	left:960px;
+	overflow:hidden;
 	margin-left:0px;
+	white-space:nowrap;
 	
 }
 
 /*container 1 is the main container including about me and connect wiht me*/
 #container1{
 	/*border-radius:15px;*/
-	height:600px;
+	height:1000px;
 	width:auto;
 	background-image: url("../images/ep_naturalwhite.png");
 	display: block;
 	margin-top:0;
-	margin-bottom:0;
+	margin-bottom:auto;
 	border-top-style:solid;
 	border-top-width:2px;
 	border-top-color:#cccccc;
 
-	border-bottom-style:solid;
-	border-bottom-width:6px;
-	border-bottom-color:#4aaaa5;
+	
 }
 
 /* container 2 is the About me container*/
@@ -160,12 +162,13 @@ p{
 	width:220px;
 	height:170px;
 	background-color:#ffffff;
-	position:relative;
-	left: 270px;
-	top:-214px;
+	position:absolute;
+	left:950px;
+	top:120px;
 	border-style:solid;
 	border-color:#dddddd;
 	border-width:2px;
+	white-space:nowrap;
 	
 
 
@@ -177,6 +180,7 @@ p{
 	position:relative;
 	left:15px;
 	top: 10px;
+	right:10px;
 
 }
 
@@ -188,8 +192,14 @@ p{
 footer{
 	/*border-radius:15px;*/
 	background-color:#2f3131;
-	margin: 0 auto;
 	padding:.1em;
+	position:fixed;
+	width:100%;
+	bottom:0;
+	border-top-style:solid;
+	border-top-width:6px;
+	border-top-color:#4aaaa5;
+	
 }
 
 .textcenter{
