@@ -1,8 +1,8 @@
 
 body{
-	width:auto;
-	height:auto;
-	margin:0 0 auto 0;
+	width:100%;
+	
+	margin: auto;
 	
 }
 
@@ -19,11 +19,13 @@ h1{
 	font-weight: 500;
 	font-size:45px;
 	color:white;
-	position:relative;
-	left: 40px;
-	vertical-align: middle;
+	
+	left: 0px;
+	
 	line-height:79px;
-	margin:0 auto;
+	margin:0 0 0 0;
+	background-color:#426e86;
+	padding-left:45px;
 }
 h2{
 	/*color: #4aaaa5;*/
@@ -65,9 +67,9 @@ a{
 	width:470px;
 	height:80px;
 	/*background-color:#4aaaa5;*/
-	background-color:#426e86;
+	/*background-color:#426e86;*/
 	position: relative;
-	left: 250px;
+	left: 150px;
 	display:inline-block;
 	margin-bottom:10px;
 
@@ -83,7 +85,7 @@ nav{
 	float:right;
 	position: absolute;
 	top:30px;
-	left:960px;
+	left:860px;
 	overflow:hidden;
 	margin-left:0px;
 	white-space:nowrap;
@@ -94,16 +96,14 @@ nav{
 #container1{
 	/*border-radius:15px;*/
 	height:100vh;
-	width:100vw;
-	background-image: url("../images/paper_1.png");
-	display: block;
+	width:100%;
+	
 	margin-top:0;
 	margin-bottom:auto;
 	border-top-style:solid;
 	border-top-width:2px;
 	border-top-color:#cccccc;
-
-	
+	background-image: url("../images/paper_1.png");	
 }
 
 /* container 2 is the About me container*/
@@ -116,7 +116,7 @@ nav{
 	background-color:#ffffff;
 	/*background-color: #f8f1e5;*/
 	position:relative;
-	left:250px;
+	left:150px;
 	/*left:20%;*/
 	top: 30px;
 	border-style:solid;
@@ -167,7 +167,7 @@ p{
 	background-color:#ffffff;
 	/*background-color: #f8f1e5;*/
 	position:absolute;
-	left:950px;
+	left:850px;
 	top:120px;
 	border-style:solid;
 	border-color:#dddddd;
