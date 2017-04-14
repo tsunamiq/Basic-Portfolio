@@ -204,7 +204,7 @@ footer{
 	display:inline-block;
 	width:250px;
 	height:160px;
-	margin: 20px 0 10px 30px;
+	margin: 0px 0 10px 30px;
 	border-style:solid;
 	border-color:#426e86;
 	border-width:1px;
@@ -216,7 +216,7 @@ footer{
 	height:160px;
 	border-style:solid;
 	border-color:#426e86;
-	margin: 20px 0 10px 20px;
+	margin: 0px 0 10px 10px;
 	border-width:1px;
 }
 
