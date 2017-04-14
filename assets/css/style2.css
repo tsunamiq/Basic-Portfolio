@@ -90,11 +90,11 @@ nav{
 	
 }
 
-/* container 2 is the Portfolio container*/
+/* container 2 is the About me container*/
 
 #container2{
 	display:inline-block;
-	height:680px;
+	height:700px;
 	width:650px;
 	background-color:#ffffff;
 	position:relative;
@@ -113,7 +113,7 @@ h2.left{
 
 .hr1{
 
-	margin: auto 25px 15px 40px;
+	margin: auto 25px 25px 40px;
 
 }
 
@@ -193,7 +193,7 @@ footer{
 #containerport{
  display:block;
  width:580px;
- height: 400px;
+ height: 590px;
  margin-left:30px;
 
 }
@@ -242,4 +242,60 @@ img.port{
 	height:160px;
 	float:left;
 	z-index:-1;
+}
+
+
+/* comment box */
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100px;
+    background-color: #426e86;
+    color: white;
+    padding: 14px 5px;
+    padding-left:0;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+div.link{
+    border-radius: 5px;
+   
+    padding: 20px;
+}
+label{
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-left:10px;
+	color:#777777;
+
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    margin-top:10px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 16px;
+    resize: none;
+    color:#777777;
+   	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
 }
