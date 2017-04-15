@@ -76,10 +76,9 @@ nav{
 	margin-left:0px;
 }
 
-/*container 1 is the main container including about me and connect wiht me*/
+/*container 1 is the main container including portfolio me and connect wiht me*/
 #container1{
-	/*border-radius:15px;*/
-	height:100%;
+	height:800px;
 	width:960px;
 	
 	margin-top:0;
